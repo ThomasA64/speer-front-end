@@ -19,12 +19,12 @@ export default function Pricing() {
             <h1>MONTHLY</h1>
             <h1 className="price">$9</h1>
             <ul className="features">
-              <li>♪ Very Good</li>
-              <li>♪ Amazing</li>
-              <li>♪ Perfect Job</li>
-              <li>♪ Love this</li>
-              <li>♪ It's so good</li>
-              <li>♪ Features</li>
+              <li> Very Good</li>
+              <li> Amazing</li>
+              <li> Perfect Job</li>
+              <li> Love this</li>
+              <li> It's so good</li>
+              <li> Features</li>
             </ul>
             <button class="sel bas">
               {" "}
@@ -39,12 +39,12 @@ export default function Pricing() {
             <h1>YEARLY</h1>
             <h1 className="price">$99</h1>
             <ul className="features">
-              <li>♪ Very very Good</li>
-              <li>♪ Even Amazing</li>
-              <li>♪ Perfect job</li>
-              <li>♪ Love this more</li>
-              <li>♪ It's so so good</li>
-              <li>♪ More Features</li>
+              <li> Very very Good</li>
+              <li> Even Amazing</li>
+              <li> Perfect job</li>
+              <li> Love this more</li>
+              <li> It's so so good</li>
+              <li> More Features</li>
             </ul>
             <button class="sel adv">
               {" "}
@@ -59,12 +59,12 @@ export default function Pricing() {
             <h1>YEARLY</h1>
             <h1 className="price">$120</h1>
             <ul className="features">
-              <li>♪ Very very Good</li>
-              <li>♪ Even more</li>
-              <li>♪ Perfect job</li>
-              <li>♪ Love this more</li>
-              <li>♪ It's so so good</li>
-              <li>♪ More Features</li>
+              <li> Very very Good</li>
+              <li> Even more</li>
+              <li> Perfect job</li>
+              <li> Love this more</li>
+              <li> It's so so good</li>
+              <li> More Features</li>
             </ul>
             <button class="sel prosel">
               {" "}
