@@ -17,7 +17,10 @@ export default function Mainpage() {
             Experience your favourite artists like never before and from the
             comfort of your own home
           </h2>
-          <button class="btn-mix-noborder">TRY IT NOW</button>
+          <button class="btn-mix-noborder">
+            {" "}
+            <a href="/pricing">TRY IT NOW</a>
+          </button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -33,7 +36,10 @@ export default function Mainpage() {
             Experience your favourite artists like never before and from the
             comfort of your own home
           </h2>
-          <button class="btn-mix-noborder">TRY IT NOW</button>
+          <button class="btn-mix-noborder">
+            {" "}
+            <a href="/pricing">TRY IT NOW</a>
+          </button>{" "}
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -49,7 +55,10 @@ export default function Mainpage() {
             Experience your favourite artists like never before and from the
             comfort of your own home
           </h2>
-          <button class="btn-mix-noborder">TRY IT NOW</button>
+          <button class="btn-mix-noborder">
+            {" "}
+            <a href="/pricing">TRY IT NOW</a>
+          </button>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
