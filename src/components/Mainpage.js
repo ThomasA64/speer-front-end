@@ -13,8 +13,11 @@ export default function Mainpage() {
         />
         <Carousel.Caption>
           <h1>INTERACTIVE CONCERT EXPERIENCE</h1>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          <Button>Try it Now</Button>
+          <h2>
+            Experience your favourite artists like never before and from the
+            comfort of your own home
+          </h2>
+          <button class="btn-mix-noborder">Try it Now</button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -26,8 +29,11 @@ export default function Mainpage() {
 
         <Carousel.Caption>
           <h1>INTERACTIVE CONCERT EXPERIENCE</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <Button>Try it Now</Button>
+          <h2>
+            Experience your favourite artists like never before and from the
+            comfort of your own home
+          </h2>
+          <button class="btn-mix-noborder">Try it Now</button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -39,10 +45,11 @@ export default function Mainpage() {
 
         <Carousel.Caption>
           <h1>INTERACTIVE CONCERT EXPERIENCE</h1>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-          <Button>Try it Now</Button>
+          <h2>
+            Experience your favourite artists like never before and from the
+            comfort of your own home
+          </h2>
+          <button class="btn-mix-noborder">Try it Now</button>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
