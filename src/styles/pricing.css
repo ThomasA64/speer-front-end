@@ -8,3 +8,17 @@
 .options {
   color: white;
 }
+
+ul {
+  list-style-type: symbols("\u2669");
+}
+
+@counter-style repeating-emoji {
+  system: cyclic;
+  symbols: "\u2669";
+  suffix: " ";
+}
+
+.repeating-counter-rule {
+  list-style-type: repeating-emoji;
+}
