@@ -9,6 +9,7 @@ import "./styles/mainpage.css";
 import "./styles/allstyles.css";
 import "./styles/button.scss";
 import "./styles/nav.css";
+import "./styles/pricing.css";
 
 function App() {
   return (

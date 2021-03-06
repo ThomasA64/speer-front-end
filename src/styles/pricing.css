@@ -1,0 +1,10 @@
+.pricing-main {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.options {
+  color: white;
+}
