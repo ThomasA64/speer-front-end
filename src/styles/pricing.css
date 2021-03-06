@@ -22,3 +22,46 @@ ul {
 .repeating-counter-rule {
   list-style-type: repeating-emoji;
 }
+
+.basic {
+  color: red;
+}
+
+.advanced {
+  color: goldenrod;
+}
+
+.pro {
+  color: aqua;
+}
+
+.features {
+  color: white;
+}
+
+.price {
+  font-size: 5em;
+}
+
+.sel {
+  border-radius: 25px;
+  padding: 0.8em;
+  width: 200px;
+  color: white;
+}
+
+.bas {
+  background-color: red;
+}
+
+.adv {
+  background-color: goldenrod;
+}
+
+.prosel {
+  background-color: aqua;
+}
+
+.sela {
+  font-weight: 900;
+}
