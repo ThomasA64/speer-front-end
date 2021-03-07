@@ -1,7 +1,10 @@
 .navstyle {
   height: 70px;
-  border-bottom: red solid 1px;
   display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
 }
 
 .fas {
@@ -26,6 +29,9 @@
   width: 15em;
   height: 15em;
   border-radius: 250px;
+  z-index: 3;
+  transition: all 0.2s ease-in-out;
+  opacity: 0.8;
 }
 
 .menu a {
@@ -36,6 +42,7 @@
 label {
   margin: 20px;
   cursor: pointer;
+  z-index: 2;
 }
 
 #toggle {
@@ -44,6 +51,9 @@ label {
 
 #toggle:checked + .menu {
   display: flex;
+  transform: scale(1.1);
+  position: absolute;
+  z-index: 1;
 }
 
 /* .navstyle {

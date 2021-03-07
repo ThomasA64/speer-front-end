@@ -5,6 +5,7 @@ import Nav from "./components/Nav";
 import Pricing from "./components/Pricing";
 import Burger from "./components/Burger";
 import Music from "./components/Music";
+import Hero from "./components/Hero";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/mainpage.css";
@@ -39,7 +40,14 @@ function App() {
             </>
           )}
         />
-        <Route path="/burger" render={() => <></>} />
+        <Route
+          path="/burger"
+          render={() => (
+            <>
+              <Hero></Hero>
+            </>
+          )}
+        />
       </Switch>
     </BrowserRouter>
   );

@@ -3,7 +3,7 @@ import React from "react";
 export default function Pricing() {
   return (
     <>
-      <div class="container priceContain">
+      <div class="container-fluid priceContain">
         <div className="row pricing-main">
           <h1>PRICING</h1>
           <h2>

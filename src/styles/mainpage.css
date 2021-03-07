@@ -1,7 +1,11 @@
 .hero {
   height: 100%;
+  z-index: 9;
+  position: absolute;
 }
 
 .hero-img {
   height: 100%;
+  z-index: 9;
+  position: relative;
 }
