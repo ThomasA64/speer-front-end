@@ -1,6 +1,5 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import Button from "react-bootstrap/Button";
 
 export default function Mainpage() {
   return (
@@ -17,7 +16,7 @@ export default function Mainpage() {
             Experience your favourite artists like never before and from the
             comfort of your own home
           </h2>
-          <button class="btn-mix-noborder">
+          <button className="btn-mix-noborder">
             {" "}
             <a href="/pricing">TRY IT NOW</a>
           </button>
@@ -25,7 +24,7 @@ export default function Mainpage() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="hero-img d-block w-100"
+          classNameName="hero-img d-block w-100"
           src="https://img1.wsimg.com/isteam/ip/65861a10-4dfa-4f4e-9cf4-010281680e76/AHP07467-0002.jpg/:/cr=t:5.36%25,l:0%25,w:100%25,h:89.29%25/rs=w:600,h:300,cg:true/fx-gs"
           alt="Second slide"
         />
@@ -36,7 +35,7 @@ export default function Mainpage() {
             Experience your favourite artists like never before and from the
             comfort of your own home
           </h2>
-          <button class="btn-mix-noborder">
+          <button className="btn-mix-noborder">
             {" "}
             <a href="/pricing">TRY IT NOW</a>
           </button>{" "}
@@ -44,7 +43,7 @@ export default function Mainpage() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="hero-img d-block w-100"
+          classNameName="hero-img d-block w-100"
           src="http://www.riffyou.com/wp-content/uploads/2015/04/muse-2105.jpg"
           alt="Third slide"
         />
@@ -55,7 +54,7 @@ export default function Mainpage() {
             Experience your favourite artists like never before and from the
             comfort of your own home
           </h2>
-          <button class="btn-mix-noborder">
+          <button className="btn-mix-noborder">
             {" "}
             <a href="/pricing">TRY IT NOW</a>
           </button>

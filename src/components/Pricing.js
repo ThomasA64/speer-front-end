@@ -3,7 +3,7 @@ import React from "react";
 export default function Pricing() {
   return (
     <>
-      <div class="container">
+      <div class="container priceContain">
         <div className="row pricing-main">
           <h1>PRICING</h1>
           <h2>
@@ -53,7 +53,7 @@ export default function Pricing() {
               </a>
             </button>
           </div>
-          <div class="col-lg plan pro">
+          <div className="col-lg plan pro">
             <h1>PRO</h1>
             ____________
             <h1>YEARLY</h1>
@@ -66,7 +66,7 @@ export default function Pricing() {
               <li> It's so so good</li>
               <li> More Features</li>
             </ul>
-            <button class="sel prosel">
+            <button className="sel prosel">
               {" "}
               <a className="features sela" href="/pricing">
                 SELECT

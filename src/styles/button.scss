@@ -9,7 +9,7 @@ $bg-color: #222;
   letter-spacing: 4px;
   overflow: hidden;
   position: relative; //absolute
-  padding: 1.5em 2em;
+  padding: 0.5em 1em;
   margin: 4em;
   color: black;
   text-transform: uppercase;
@@ -101,7 +101,6 @@ body {
 }
 
 body {
-  background: $bg-color;
   // display: flex;
   // justify-content: center;
   // align-items: center;
