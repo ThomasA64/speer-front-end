@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
+//Components
 import Nav from "./components/Nav";
 import Pricing from "./components/Pricing";
 import Music from "./components/Music";
@@ -11,6 +12,7 @@ import PerksMain from "./components/PerksMain";
 import Reviews from "./components/Reviews";
 import GetNow from "./components/GetNow";
 
+//Styles
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/mainpage.css";
 import "./styles/allstyles.css";
