@@ -6,6 +6,8 @@ import Music from "./components/Music";
 import Hero from "./components/Hero";
 import Perks from "./components/Perks";
 import Footer from "./components/Footer";
+import FrontRow from "./components/FrontRow";
+import PerksMain from "./components/PerksMain";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/mainpage.css";
@@ -30,6 +32,8 @@ function App() {
             <>
               <Hero></Hero>
               <Music></Music>
+              <FrontRow></FrontRow>
+              <PerksMain></PerksMain>
             </>
           )}
         />

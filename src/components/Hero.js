@@ -20,7 +20,7 @@ export default function Hero() {
         className="z-depth-1"
       >
         <MDBCarouselInner>
-          <MDBCarouselItem itemId="1">
+          <MDBCarouselItem itemId="1" className="item1">
             <MDBView>
               <img
                 className="d-block w-100"

@@ -7,3 +7,37 @@
   justify-content: center;
   align-items: center;
 }
+
+.music-main {
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.front {
+  background-color: goldenrod;
+  color: black;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.perks-main {
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.perk-description-main {
+  color: white;
+}

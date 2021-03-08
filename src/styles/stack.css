@@ -8,6 +8,16 @@
   padding: 1em 4em;
 }
 
+.demo-gold {
+  color: goldenrod;
+  background-color: white;
+  text-transform: uppercase;
+  font-weight: 900;
+  border-radius: 25px;
+  border: none;
+  padding: 1em 4em;
+}
+
 .stack-description {
   color: white;
   font-weight: 900;
@@ -21,4 +31,23 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center; */
+}
+
+.image {
+  height: 250px;
+  width: 250px;
+  border-radius: 250px;
+  color: goldenrod;
+  background-color: black;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

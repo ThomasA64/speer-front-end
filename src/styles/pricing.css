@@ -81,3 +81,11 @@ ul {
 .perk-description {
   color: black;
 }
+
+.perks-main {
+  font-weight: 900;
+}
+
+.perk-description-main {
+  color: black;
+}
