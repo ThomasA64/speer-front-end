@@ -11,6 +11,7 @@
   color: white;
   display: flex;
   align-items: center;
+  z-index: 4;
 }
 
 .logo {
@@ -23,13 +24,20 @@
   flex-direction: column;
   justify-content: center;
   display: none;
-  background-color: red;
-  margin: 20px;
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(0, 31, 255, 1) 100%
+  );
+  margin: 0px;
+  margin-top: -70px;
+  margin-left: 25px;
   padding: 40px;
-  width: 15em;
-  height: 15em;
+  width: 17.5em;
+  height: 17.5em;
   border-radius: 250px;
-  z-index: 3;
+  z-index: 2;
   transition: all 0.2s ease-in-out;
   opacity: 0.8;
 }
@@ -37,7 +45,12 @@
 .menu a {
   text-decoration: none;
   color: white;
-  font-size: 30px;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.menu a:hover {
+  color: aqua;
 }
 
 label {

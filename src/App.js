@@ -7,6 +7,7 @@ import Burger from "./components/Burger";
 import Music from "./components/Music";
 import Hero from "./components/Hero";
 import Perks from "./components/Perks";
+import Footer from "./components/Footer";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/mainpage.css";
@@ -16,6 +17,7 @@ import "./styles/nav.css";
 import "./styles/pricing.css";
 import "./styles/burger.css";
 import "./styles/music.css";
+import "./styles/footer.css";
 
 function App() {
   return (
@@ -38,6 +40,7 @@ function App() {
             <>
               <Pricing></Pricing>
               <Perks></Perks>
+              <Footer></Footer>
             </>
           )}
         />

@@ -1,0 +1,23 @@
+.blue-footer {
+  display: flex;
+  flex-direction: column;
+  padding: 5em;
+  background-color: blue;
+  color: white;
+}
+
+.logo-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.email {
+  display: flex;
+  padding: 10px;
+}
+
+.class-email {
+  padding-left: 10px;
+}
