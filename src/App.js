@@ -8,6 +8,7 @@ import Perks from "./components/Perks";
 import Footer from "./components/Footer";
 import FrontRow from "./components/FrontRow";
 import PerksMain from "./components/PerksMain";
+import Reviews from "./components/Reviews";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/mainpage.css";
@@ -34,6 +35,7 @@ function App() {
               <Music></Music>
               <FrontRow></FrontRow>
               <PerksMain></PerksMain>
+              <Reviews></Reviews>
             </>
           )}
         />

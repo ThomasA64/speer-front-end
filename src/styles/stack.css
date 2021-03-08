@@ -51,3 +51,21 @@
   justify-content: center;
   align-items: center;
 }
+
+.img-contain {
+  height: 200px;
+  width: 200px;
+}
+
+.img-review {
+  height: 100%;
+  width: auto;
+}
+
+.review-flex {
+  display: flex;
+}
+
+.stars {
+  color: black;
+}

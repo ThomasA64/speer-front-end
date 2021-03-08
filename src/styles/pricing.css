@@ -89,3 +89,14 @@ ul {
 .perk-description-main {
   color: black;
 }
+
+.perks-review-first {
+  margin: -60px;
+  margin-left: -10px;
+  margin-top: -68px;
+}
+
+.perks-review {
+  margin: -60px;
+  margin-left: -10px;
+}
