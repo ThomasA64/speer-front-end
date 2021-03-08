@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Perks() {
   return (
-    <div class="container-fluid musContain perks">
+    <div className="container-fluid musContain perks">
       <div className="row music">
         <div className="col perks">
           <h1>PERKS</h1>

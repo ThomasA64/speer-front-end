@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Reviews() {
   return (
-    <div class="container-fluid musContain perks">
+    <div className="container-fluid musContain perks">
       <div className="row music-reviews">
         <div className="col-2">
           <div className="img-contain">

@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="blue-footer">
       <div>
         <div className="email">
-          <i class="fas fa-envelope"></i>{" "}
+          <i className="fas fa-envelope"></i>{" "}
           <h4 className="class-email">support@experienceconcerts.co</h4>
         </div>
       </div>

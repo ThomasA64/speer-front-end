@@ -2,7 +2,7 @@ import React from "react";
 
 export default function GetNow() {
   return (
-    <div class="container-fluid musContain">
+    <div className="container-fluid musContain">
       <div className="row get-now">
         <div className="col-8">
           <h1 className="stack-description-get">GET EXP|CON NOW</h1>

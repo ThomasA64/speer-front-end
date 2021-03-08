@@ -5,7 +5,7 @@ export default function Music() {
   return (
     <>
       <Nav />
-      <div class="container-fluid musContain">
+      <div className="container-fluid musContain">
         <div className="row music">
           <div className="col-8">
             <h1 className="stack-description">Superior Sound</h1>

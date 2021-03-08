@@ -3,7 +3,7 @@ import React from "react";
 export default function FrontRow() {
   return (
     <div>
-      <div class="container-fluid musContain">
+      <div className="container-fluid musContain">
         <div className="row front">
           <div className="col-4 img-gold">
             <div />

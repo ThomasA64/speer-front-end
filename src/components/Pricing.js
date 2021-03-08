@@ -3,7 +3,7 @@ import React from "react";
 export default function Pricing() {
   return (
     <>
-      <div class="container-fluid priceContain">
+      <div className="container-fluid priceContain">
         <div className="row pricing-main">
           <h1>PRICING</h1>
           <h2>
@@ -12,8 +12,8 @@ export default function Pricing() {
             Based payment models.
           </h2>
         </div>
-        <div class="row options">
-          <div class="col-lg plan basic">
+        <div className="row options">
+          <div className="col-lg plan basic">
             <h1>BASIC</h1>
             ____________
             <h1>MONTHLY</h1>
@@ -26,14 +26,14 @@ export default function Pricing() {
               <li> It's so good</li>
               <li> Features</li>
             </ul>
-            <button class="sel bas">
+            <button className="sel bas">
               {" "}
               <a className="features sela" href="/pricing">
                 SELECT
               </a>
             </button>
           </div>
-          <div class="col-lg plan advanced">
+          <div className="col-lg plan advanced">
             <h1>ADVANCED</h1>
             ____________
             <h1>YEARLY</h1>
@@ -46,7 +46,7 @@ export default function Pricing() {
               <li> It's so so good</li>
               <li> More Features</li>
             </ul>
-            <button class="sel adv">
+            <button className="sel adv">
               {" "}
               <a className="features sela" href="/pricing">
                 SELECT
