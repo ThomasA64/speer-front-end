@@ -19,7 +19,8 @@ export default function Music() {
 
           <div className="col-4">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOlzftZ6hhMRbHQf78PxwelnfvtQTi2yX_TA&usqp=CAU"
+              className="speakers"
+              src="https://www9.lunapic.com/editor/working/161521795211012906?3465941269"
               alt="image of a music speaker"
             />
           </div>

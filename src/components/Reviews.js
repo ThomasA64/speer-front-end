@@ -8,7 +8,7 @@ export default function Reviews() {
           <div className="img-contain">
             <img
               className="img-review"
-              src="https://audioengineusa.com/wp-content/uploads/2018/02/black1-1.png"
+              src="https://www9.lunapic.com/editor/working/161521795211012906?7339301395"
             />
           </div>
         </div>
