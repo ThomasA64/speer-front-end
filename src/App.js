@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import FrontRow from "./components/FrontRow";
 import PerksMain from "./components/PerksMain";
 import Reviews from "./components/Reviews";
+import GetNow from "./components/GetNow";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/mainpage.css";
@@ -36,6 +37,8 @@ function App() {
               <FrontRow></FrontRow>
               <PerksMain></PerksMain>
               <Reviews></Reviews>
+              <GetNow></GetNow>
+              <Footer></Footer>
             </>
           )}
         />
@@ -46,14 +49,6 @@ function App() {
               <Pricing></Pricing>
               <Perks></Perks>
               <Footer></Footer>
-            </>
-          )}
-        />
-        <Route
-          path="/burger"
-          render={() => (
-            <>
-              <Hero></Hero>
             </>
           )}
         />
