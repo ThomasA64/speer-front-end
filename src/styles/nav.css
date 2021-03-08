@@ -1,5 +1,6 @@
 .navstyle {
   height: 70px;
+  font-weight: 900;
   display: flex;
   position: fixed;
   top: 0;

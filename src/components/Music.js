@@ -7,17 +7,17 @@ export default function Music() {
       <Nav />
       <div class="container-fluid musContain">
         <div className="row music">
-          <div className="col">
-            <h1>Superior Sound</h1>
+          <div className="col-8">
+            <h1 className="stack-description">Superior Sound</h1>
             <h2>
               Experience live versions of your
               <br></br>
-              favourite songs
+              favourite songs.
             </h2>
-            <button>See Demo</button>
+            <button className="demo-red">See Demo</button>
           </div>
 
-          <div className="col ">
+          <div className="col-4">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOlzftZ6hhMRbHQf78PxwelnfvtQTi2yX_TA&usqp=CAU"
               alt="image of a music speaker"

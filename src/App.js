@@ -1,9 +1,7 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import MainPage from "./components/Mainpage";
 import Nav from "./components/Nav";
 import Pricing from "./components/Pricing";
-import Burger from "./components/Burger";
 import Music from "./components/Music";
 import Hero from "./components/Hero";
 import Perks from "./components/Perks";
@@ -18,6 +16,7 @@ import "./styles/pricing.css";
 import "./styles/burger.css";
 import "./styles/music.css";
 import "./styles/footer.css";
+import "./styles/stack.css";
 
 function App() {
   return (
