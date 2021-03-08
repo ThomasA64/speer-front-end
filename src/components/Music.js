@@ -5,9 +5,9 @@ export default function Music() {
   return (
     <>
       <Nav />
-      <div class="container">
+      <div class="container-fluid musContain">
         <div className="row music">
-          <div className="col-lg">
+          <div className="col">
             <h1>Superior Sound</h1>
             <h2>
               Experience live versions of your
@@ -17,7 +17,7 @@ export default function Music() {
             <button>See Demo</button>
           </div>
 
-          <div className="col-lg ">
+          <div className="col ">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOlzftZ6hhMRbHQf78PxwelnfvtQTi2yX_TA&usqp=CAU"
               alt="image of a music speaker"

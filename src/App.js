@@ -6,6 +6,7 @@ import Pricing from "./components/Pricing";
 import Burger from "./components/Burger";
 import Music from "./components/Music";
 import Hero from "./components/Hero";
+import Perks from "./components/Perks";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/mainpage.css";
@@ -26,8 +27,7 @@ function App() {
           path="/"
           render={() => (
             <>
-              <MainPage></MainPage>
-              <Music></Music>
+              <Hero></Hero>
               <Music></Music>
             </>
           )}
@@ -37,6 +37,7 @@ function App() {
           render={() => (
             <>
               <Pricing></Pricing>
+              <Perks></Perks>
             </>
           )}
         />

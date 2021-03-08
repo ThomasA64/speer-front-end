@@ -3,7 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 
 export default function Mainpage() {
   return (
-    <Carousel fade classname="hero">
+    <Carousel fade classname="hero container-fluid">
       <Carousel.Item>
         <img
           className="hero-img d-block w-100"
@@ -25,7 +25,7 @@ export default function Mainpage() {
       <Carousel.Item>
         <img
           classNameName="hero-img d-block w-100"
-          src="https://img1.wsimg.com/isteam/ip/65861a10-4dfa-4f4e-9cf4-010281680e76/AHP07467-0002.jpg/:/cr=t:5.36%25,l:0%25,w:100%25,h:89.29%25/rs=w:600,h:300,cg:true/fx-gs"
+          src="http://www.riffyou.com/wp-content/uploads/2015/04/muse-2105.jpg"
           alt="Second slide"
         />
 
@@ -44,7 +44,7 @@ export default function Mainpage() {
       <Carousel.Item>
         <img
           classNameName="hero-img d-block w-100"
-          src="http://www.riffyou.com/wp-content/uploads/2015/04/muse-2105.jpg"
+          src="https://media.blogto.com/articles/2017713-coldplay.jpg?w=2048&cmd=resize_then_crop&height=1365&quality=70"
           alt="Third slide"
         />
 
